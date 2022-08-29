@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* TITLE AREA */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.title-h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* NAVAGATION BAR */
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* MAIN DOGPHONE IMG */
+
+.phone-img {
+  width: 60%;
+  transform: rotate(20deg);
+  right: 30%;
+  position: absolute;
+}
+
+/* FEATURES */
+
+#features {
+  background-color: #fff;
+  font-family: 'Montserrat-bold', sans-serif;
+  padding: 7% 10%;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  padding: 3% 3%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.cta-btn {
+  margin:
+}
+
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-img {
+  height: 10%;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  background:color: #ef8172;
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .phone-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* CALL TO ACTION */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  margin: 5% 3% 3% 0;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 3% 5%;
+}
+
+.footer-icon {
+  margin: 10px 10px;
+}
