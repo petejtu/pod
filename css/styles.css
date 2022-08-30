@@ -2,18 +2,8 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Montserrat-black', sans-serif;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 2rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -86,6 +76,10 @@ p {
   text-align: center;
 }
 
+.h3-features {
+    font-size: 1.5rem;
+}
+
 .icon {
   color: #ef8172;
   padding: 3% 3%;
@@ -94,11 +88,6 @@ p {
 .icon:hover {
   color: #ff4c68;
 }
-
-.cta-btn {
-  margin:
-}
-
 
 /* TESTIMONIAL SECTION */
 
@@ -116,6 +105,11 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+}
+
+.h2-test {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 /* PRESS */
@@ -141,6 +135,11 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.h2-price {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 1028px) {
